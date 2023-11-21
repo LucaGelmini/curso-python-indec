@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "curso-python-indec"
+version = "0.1.0"
+description = ""
+authors = ["LucaGelmini <lucagelmini@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.3"
+plotly = "^5.18.0"
+ipykernel = "^6.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
